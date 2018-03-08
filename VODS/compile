@@ -1,0 +1,1 @@
+g++ -Iinclude -Llibrary -o VODS Main.c -lLeddarC -lLeddar -lLeddarTech -lwiringPi -lSensorInterpreter -lGPIO -lSound -Wl,-rpath=library

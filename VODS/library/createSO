@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "Enter filename without '.c': " name
+g++ $name.c -c
+g++ $name.o -shared -o lib$name.so
+rm $name.o
+
